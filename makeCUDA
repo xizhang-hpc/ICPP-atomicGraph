@@ -1,0 +1,15 @@
+#!/bin/bash
+# release mode
+#for GPU Tesla V100
+#firstly, compile cdpSimpleQuicksort
+nvcc -dc -gencode arch=compute_70,code=sm_70 -o cdpSimpleQuicksort.o -c ./quickSort/cdpSimpleQuicksort.cu
+#secondly, compile the other files
+nvcc -gencode arch=compute_70,code=sm_70 *.cu cdpSimpleQuicksort.o -o compareDoubleBest -lcudadevrt  #double precision
+#nvcc -gencode arch=compute_70,code=sm_70 *.cu cdpSimpleQuicksort.o -o compareSingleBest -DSINGLE -lcudadevrt  #single precision
+
+#for GPU Tesla K80
+#firstly, compile cdpSimpleQuicksort
+#nvcc -dc -gencode arch=compute_35,code=sm_35 -o cdpSimpleQuicksort.o -c ./quickSort/cdpSimpleQuicksort.cu
+#secondly, compile the other files
+#nvcc -gencode arch=compute_35,code=sm_35 *.cu cdpSimpleQuicksort.o -o compareDoubleBest -lcudadevrt  #double precision
+#nvcc -gencode arch=compute_35,code=sm_35 *.cu cdpSimpleQuicksort.o -o compareSingleBest -DSINGLE -lcudadevrt  #single precision
