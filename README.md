@@ -15,7 +15,13 @@ tar -xzvf Mesh1.tgz
 cp compareDoubleBest Mesh1
 ./compareDoubleBest
 
-4 Algorithms and function No.
+4 performance
+Performance of different algorithms is gain by executing time.
+e.g.
+Function No: 1, Algorithm: 6, Time: 1.209404e-01 s, Loop No: 1000
+It means that kernel of Algorithm 6 runs 1.209404e-01 seconds by 1000 times.
+
+5 Function No and Algorithm
 Function No: 1 for Algorithm 6
 Function No: 2 for Algorithm 4
 Function No: 3 for Algorithm 8
