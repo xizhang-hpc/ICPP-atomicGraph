@@ -153,7 +153,7 @@
 		FILE * outputFile = fopen("timeRecord", "w");
 		for (int i = 0; i <= arrayTop; i++)
 		{
-			printf("Function No: %d, Timer No: %d, Time: %e s, Loop No: %d\n", 
+			printf("Function No: %d, Algorithm: %d, Time: %e s, Loop No: %d\n", 
 					i, timerID[i], timerElapsedTime[i], timerCallNum[i]);	
 			fprintf(outputFile, "%d  %f\n", timerID[i], timerElapsedTime[i]);
 		}

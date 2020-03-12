@@ -15,3 +15,16 @@ tar -xzvf Mesh1.tgz
 cp compareDoubleBest Mesh1
 ./compareDoubleBest
 
+4 Algorithms and function No.
+Function No: 1 for Algorithm 6
+Function No: 2 for Algorithm 4
+Function No: 3 for Algorithm 8
+Function No: 4 for Algorithm 12
+Function No: 5 for Algorithm 10
+Function No: 6 for Algorithm 3
+Function No: 7 for Algorithm 5
+Function No: 8 for Algorithm 7
+Function No: 9 for Algorithm 13
+Function No: 10 for Algorithm 11
+Function No: 11 for Algorithm 9
+
