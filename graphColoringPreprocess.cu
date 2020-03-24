@@ -18,6 +18,7 @@ void graphColoringPreprocess(int numVolumes, int numFaces, const int * cellFaces
 	initVolumeRenumberNew(numVolumes);
 	cellRenumberByfaceGroup(numFaces, numVolumes, numFaceGroups, faceGroup, posiFaceGroup, faceGroupNums, owner, neighbour);
 	hToDMeshOptInforTransfer(numFaces, owner, neighbour);
+	faceGroupRenumberQuickSortOwner(numFaceGroups, faceGroupNums, faceGroup, posiFaceGroup, owner);
 	validateFaceGroup(numFaces, numVolumes, numFaceGroups, faceGroup, posiFaceGroup, faceGroupNums, owner, neighbour);
 	hToDFaceGroupOptInfoTransfer(numFaces, faceGroup);
 	freeHostMemory(faceConflict, posiFaceConflict, faceGroup);
