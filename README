@@ -18,19 +18,19 @@ cp compareDoubleBest Mesh1
 4 performance
 Performance of different algorithms is gain by executing time.
 e.g.
-Function No: 1, Algorithm: 6, Time: 1.209404e-01 s, Loop No: 1000
-It means that kernel of Algorithm 6 runs 1.209404e-01 seconds by 1000 times.
+Function No: 1, Time: 1.209404e-01 s, Loop No: 1000
+It means that kernel of Function 1 (A4-SM) runs 1.209404e-01 seconds by 1000 times.
 
-5 Function No and Algorithm
-Function No: 1 for Algorithm 6
-Function No: 2 for Algorithm 4
-Function No: 3 for Algorithm 8
-Function No: 4 for Algorithm 12
-Function No: 5 for Algorithm 10
-Function No: 6 for Algorithm 3
-Function No: 7 for Algorithm 5
-Function No: 8 for Algorithm 7
-Function No: 9 for Algorithm 13
-Function No: 10 for Algorithm 11
-Function No: 11 for Algorithm 9
+5 Function No and Algorithms
+Function No: 1 for A4-SM
+Function No: 2 for A4-NOPT
+Function No: 3 for A6-NOPT
+Function No: 4 for A6-RVF
+Function No: 5 for A6-SM
+Function No: 6 for A3-NOPT
+Function No: 7 for A3-SM
+Function No: 8 for A5-NOPT
+Function No: 9 for A5-RF
+Function No: 10 for A5-RVF
+Function No: 11 for A5-SM
 
