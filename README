@@ -22,15 +22,15 @@ Function No: 1, Time: 1.209404e-01 s, Loop No: 1000
 It means that kernel of Function 1 (A4-SM) runs 1.209404e-01 seconds by 1000 times.
 
 5 Function No and Algorithms
-Function No: 1 for A4-SM
-Function No: 2 for A4-NOPT
-Function No: 3 for A6-NOPT
-Function No: 4 for A6-RVF
-Function No: 5 for A6-SM
-Function No: 6 for A3-NOPT
-Function No: 7 for A3-SM
-Function No: 8 for A5-NOPT
-Function No: 9 for A5-RF
-Function No: 10 for A5-RVF
-Function No: 11 for A5-SM
+Function No: 1 for atomic operation on maximum pressure with shared memory, A-MP-SM
+Function No: 2 for atomic operation on maximum pressure with no optimization, A-MP-NOPT
+Function No: 3 for graph coloring operation on maximum pressure with no optimization, G-MP-NOPT
+Function No: 4 for graph coloring operation on maximum pressure with reordered volume and face, G-MP-RVF
+Function No: 5 for graph coloring operation on maximum pressure with shared memory, G-MP-SM
+Function No: 6 for atomic operation on flux summation with no optimization, A-FS-NOPT
+Function No: 7 for atomic operation on flux summation with shared memory, A-FS-SM
+Function No: 8 for graph coloring on flux summation with no optimization, G-FS-NOPT
+Function No: 9 for graph coloring on flux summation with reorderd flux, G-FS-RF
+Function No: 10 for graph coloring on flux summation with reordered volume and face, G-FS-RVF
+Function No: 11 for graph coloring on flux summation with shared memory, G-FS-SM
 
